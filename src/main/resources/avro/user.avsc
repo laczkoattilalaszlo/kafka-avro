@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "name": "User",
+    "namespace": "example.output.folder",   // Desired package structure under the output folder.
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "age",
+            "type": "int"
+        }
+    ]
+}
